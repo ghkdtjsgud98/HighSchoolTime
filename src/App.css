@@ -6,7 +6,10 @@ body
 {
     text-align: center;
 }
-
+div
+{
+    box-shadow:0px 7px 3px grey;
+}
 .Login
 {
     line-height: 50px;
@@ -26,6 +29,11 @@ ul
 {
     list-style: none;
 }
+.Login li
+{
+    align-content: center;
+    margin-left: -30px;
+}
 #login_button
 {
     background-color:#40A9FF;
@@ -39,6 +47,7 @@ ul
     line-height: 30px;
     width: 408px;
     font-size: 25px;
+    margin-top:30px;
     cursor: pointer;
     color:white;
 }
