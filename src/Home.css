@@ -1,0 +1,23 @@
+header{
+    height: 75px;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: rgb(255, 255, 255);
+    background: #40A9FF;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+body{
+    background-color: #ffffff;
+    padding: 100px;
+}
+.Logo{
+    font-size: 50px;
+}

@@ -7,6 +7,10 @@ class App extends React.Component{
   {
     this.props.history.push('/Register');
   }
+  gotoHome = () =>
+  {
+    this.props.history.push('/Home');
+  }
   render(){
       return (
       <div className="Login">
@@ -27,11 +31,9 @@ class App extends React.Component{
             placeholder="비밀번호">
           </input>
           </li>
-
           <li>
-            <button id="login_button">로그인</button>
+            <button id="login_button" onClick = {this.gotoHome}>로그인</button>
           </li>
-
           <li>
             <button id="regist_button" onClick = {this.gotoRegist}>회원가입</button>
           </li>
